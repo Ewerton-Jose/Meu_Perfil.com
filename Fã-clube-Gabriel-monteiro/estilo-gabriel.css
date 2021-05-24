@@ -1,10 +1,23 @@
 @charset "UTF-8";
 
-body{background-image: linear-gradient(to bottom,#F0D400,#666246);
+body{background-image: linear-gradient(to bottom,#F2E749
+    60%,#473830);
     background-attachment: fixed;
     font-size: 25px; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;}
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;}
 
-h1{color: honeydew; 
+p{color: #ffffff;
+    text-align: left;
+text-shadow: rgba(128, 128, 128, 0.288);}
+
+h1{color: rgba(240, 255, 240, 0.288); 
     border: black;
-    font-size: 80px;}
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1px;}
+
+main{border-radius: 20px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.315);
+    width: 600px;}
