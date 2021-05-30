@@ -1,9 +1,20 @@
 @charset "UTF-8";
+@font-face {
+    font-family: hacked;
+    src: url(fontes/Hacked\ CRT.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: pils;
+    src: url(fontes/Positive\ System.otf) format('opentype');
+}
 
 body{background-image: linear-gradient(to left, #54A88A, #C1F5E2);
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: justify;}
 
-h1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h1{font-family: pils;
     font-weight: bolder;
-    font-size: 2em;}
+    font-size: 4em;}
+
+h2{font-family: hacked, sans-serif;}
