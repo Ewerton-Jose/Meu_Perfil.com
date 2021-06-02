@@ -1,3 +1,13 @@
+/* Paleta de cores 
+
+Azul escuro: #1E2535
+Azul quase escuro: #243C58
+Azul quase quase escuro: #486177
+Azul quase cinza: #909A9C
+Cinza quase azul: #E0E0D4
+
+*/
+
 @charset "UTF-8";
 @font-face {
     font-family: hacked;
@@ -9,10 +19,13 @@
     src: url(fontes/Positive\ System.otf) format('opentype');
 }
 
-body{background-image: linear-gradient(to left, #54A88A, #C1F5E2);
+body{
+    background-image: linear-gradient(to left, #1E2535, #486177);
+    max-width: 100%;
     font-size: 2em;
     text-align: justify;
-    text-align: center;}
+    text-align: center;
+    color: #000000;}
 
 h1{font-family: pils;
     font-weight: bolder;
@@ -33,3 +46,16 @@ h2{font-family: hacked, sans-serif;}
     width: 1600px;
     text-align: justify;
     text-align: center;}
+
+a   {
+    color: rgba(11, 155, 124, 0.712);
+    text-decoration: none;
+    }
+
+a:hover{color: black;
+        text-decoration: underline;
+        }
+
+a:active{color: rgb(20, 43, 34);}
+
+a:visited{color: cornflowerblue;}
