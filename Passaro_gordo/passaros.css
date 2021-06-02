@@ -11,10 +11,25 @@
 
 body{background-image: linear-gradient(to left, #54A88A, #C1F5E2);
     font-size: 2em;
-    text-align: justify;}
+    text-align: justify;
+    text-align: center;}
 
 h1{font-family: pils;
     font-weight: bolder;
     font-size: 4em;}
 
 h2{font-family: hacked, sans-serif;}
+
+.caixacomlista {padding: 10px;
+                background-color: rgba(95, 158, 160, 0.589);
+                border-radius: 1em;
+                width: 800px;
+                text-align: justify;
+                text-align: center;}
+
+.caixagrande {padding: 15px;
+    background-color: rgba(95, 158, 160, 0.589);
+    border-radius: 1em;
+    width: 1600px;
+    text-align: justify;
+    text-align: center;}
