@@ -29,7 +29,9 @@ body{
 
 h1{font-family: pils;
     font-weight: bolder;
-    font-size: 4em;}
+    font-size: 4em;
+    text-align: justify;
+text-align: center;}
 
 h2{font-family: hacked, sans-serif;}
 
@@ -59,3 +61,16 @@ a:hover{color: black;
 a:active{color: rgb(20, 43, 34);}
 
 a:visited{color: cornflowerblue;}
+
+nav{background-color: #909a9c56;
+margin: auto;
+width: 1200px;
+padding: 5px;
+border-radius: 10px;}
+
+.rodapezinho{
+    margin: 10px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+}
