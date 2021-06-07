@@ -18,6 +18,7 @@ h1{color: rgba(240, 255, 240, 0.288);
     margin: 1px;}
 
 main{border-radius: 20px;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.315);
+    padding: 10px;
+    background-color: #ffffff60;
+    text-shadow: rgb(0, 0, 0);
     width: 600px;}
