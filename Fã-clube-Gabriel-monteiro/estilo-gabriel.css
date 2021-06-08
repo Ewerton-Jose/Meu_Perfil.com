@@ -8,8 +8,7 @@ body{background-image: linear-gradient(to bottom,#F2E749
     text-align: center;}
 
 p{color: #ffffff;
-    text-align: left;
-text-shadow: rgba(128, 128, 128, 0.288);}
+    text-align: left;}
 
 h1{color: rgba(240, 255, 240, 0.288); 
     border: black;
@@ -17,8 +16,19 @@ h1{color: rgba(240, 255, 240, 0.288);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 1px;}
 
-main{border-radius: 20px;
+main{margin: auto;}
+
+.rolus{border-radius: 20px;
     padding: 10px;
     background-color: #ffffff60;
-    text-shadow: rgb(0, 0, 0);
-    width: 600px;}
+    width: 600px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.274);}
+
+a {text-decoration: none;
+color: rgb(0, 0, 0);}
+
+a:hover{text-decoration: underline;}
+
+a:active{color: blue;}
+
+.textopequeno{font-size: 16px;}
