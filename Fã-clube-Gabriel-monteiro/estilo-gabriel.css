@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root{
+    --shorthand1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+
 body{background-image: linear-gradient(to bottom,#F2E749
     60%,#473830);
     background-attachment: fixed;
@@ -10,24 +14,34 @@ body{background-image: linear-gradient(to bottom,#F2E749
 p{color: #ffffff;
     text-align: left;}
 
-h1{color: rgba(240, 255, 240, 0.288); 
+h1{
+    color: rgba(240, 255, 240, 0.288); 
     border: black;
     font-size: 80px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--shorthand1);
     margin: 1px;}
 
-main{margin: auto;}
+main{
+    margin: auto;
+}
 
-.rolus{border-radius: 20px;
+.rolus{
+    border-radius: 20px;
     padding: 10px;
     background-color: #ffffff60;
     width: 600px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.274);}
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.274);
+}
 
-a {text-decoration: none;
-color: rgb(0, 0, 0);}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 
-a:hover{text-decoration: underline;}
+a:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #ffffff38;
+}
 
 a:active{color: blue;}
 

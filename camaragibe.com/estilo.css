@@ -1,52 +1,89 @@
 @charset "UTF-8";
 
-body{margin: -43px 0px;
-    background-color: rgba(0, 255, 255, 0.377);}
 
-header {
-    margin: auto;
-    background-color: #dd0b0b91;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-header > h1{text-align: justify; 
-            color: rgb(0, 0, 0);
-            font-size: 11em;
-            margin: 43px 0px -11px 0px;
-        padding-bottom: 10px;}
+:root {
+    --cor1: #A31E14;
+    --cor2: #E65347;
+    --cor3: #00ffff60;
+}
 
-header > p{background-color: rgba(0, 0, 0, 0.144);
-            font-size: 32px;
-            text-align: right;}
+body{
+    margin: -43px 0px;
+    background-color: var(--cor3);
+}
 
-.principal{background-color: rgba(255, 255, 255, 0.582);
-    display: inline-block;
-    width: 800px;
+header {
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to bottom, var(--cor2), var(--cor1));
+}
+
+header > h1{
+    text-align: center; 
+    color: rgb(0, 0, 0);
+    font-size: 11em;
+    padding-bottom: 10px;
+}
+
+header > p{
+    background-color: rgba(0, 0, 0, 0.144);
+    font-size: 32px;
+    text-align: right;
+}
+
+nav{
+    font-size: 2em;
+    background-color: rgb(139, 25, 25);
+}
+
+main{
+    margin: auto;
+    max-width: 800px;
+    min-width: 280px;
+}
+
+.principal{
+    background-color: rgba(255, 255, 255, 0.74); 
     text-align: justify;
-    margin: 20px 0px 0px 15px;
     padding: 5px 20px;
-    border-radius: 30px 0px;
-    box-shadow: 1px 2px 4px 0px rgb(0 0 0 / 35%);}
+    box-shadow: 1px 2px 4px 0px rgb(0 0 0 / 35%);
+}
 
-p > a{padding: 0px 30px;
-color: black;
-text-decoration: none;
-font-weight: bold;}
+nav > a{
+    padding: 0px 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;}
 
-p > a:hover{text-decoration: underline;}
+nav > a:hover{
+    background-color: rgba(0, 0, 0, 0.199);
+    color: rgb(1, 1, 1);
+}
 
-p > a:active{
+nav > a:active{
     color: rgb(68, 33, 33);
 }
 
-p{font-size: 2em;
-margin: 2px;}
+p{
+    font-size: 2em;
+    margin: 2px;
+}
 
-h2{text-align: center;
-font-size: 2em;}
+h2{
+    text-align: center;
+    font-size: 2em;
+}
 
-.naoespecial{text-align: center;
+.naoespecial{
+    text-align: center;
     text-align: justify;
     display: inline-block; 
     margin: 20px 345px;
     background-color: rgba(0, 255, 255, 0.089);
-    width: 354px;}
+    width: 354px;
+}
