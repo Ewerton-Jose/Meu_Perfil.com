@@ -5,3 +5,8 @@ body{background-image: linear-gradient(to left,#858585, white);
     text-align: center;}
 
 hr{color: black;}
+
+ul {
+    display: inline;
+    margin: auto;
+}

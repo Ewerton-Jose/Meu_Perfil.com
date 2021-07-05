@@ -17,12 +17,19 @@ p{color: #ffffff;
 h1{
     color: rgba(240, 255, 240, 0.288); 
     border: black;
-    font-size: 80px;
+    font-size: 60px;
     font-family: var(--shorthand1);
     margin: 1px;}
 
 main{
     margin: auto;
+}
+
+
+#divvideo {
+    margin: auto;
+    background-color: #ffffff00;
+    max-width: 1000px;
 }
 
 .rolus{
