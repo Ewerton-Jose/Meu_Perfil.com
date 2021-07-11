@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora online</title>
+</head>
+<body>
+    <header>
+        <h1>Apenas 2</h1>
+        <p>Digite 2 valores e veja ele em diferentes formas</p>
+    </header>
+
+    <main>
+        <article>
+            <h1>N1</h1>
+            <input type="number" name="txtn1" id="txtn1">
+            <button onclick="mostratudo()">Confirmar</button>
+        </article>
+
+        <article>
+            <h1>N2</h1>
+            <input type="number" name="txtn2" id="txtn2">
+            <button onclick="mostratudo()">Confirmar</button>
+        </article>
+
+        <asside>
+            <div id='res1' >Resultado soma: </div>
+            <div id="res2">Resultado divisão: </div>
+            <div id='res3'>Resultado Multiplicação: </div>
+            <div id='res4'>Resultado subtração: </div>
+        </asside>
+    </main>
+
+    <script>
+        
+        function mostratudo(){
+            var txt1 = window.document.getElementById('txtn1')
+            var txt2 = window.document.getElementById('txtn2')
+            var d1 = window.document.getElementById('res1')
+            var d2 = window.document.getElementById('res2')
+            var d3 = window.document.getElementById('res3')
+            var d4 = window.document.getElementById('res4')
+            var n1 = Number(txt1.value)
+            var n2 = Number(txt2.value)
+            d1.innerText = `${n1} + ${n2} = ${n1 + n2}`
+            d2.innerText = `${n2} / ${n2} = ${n1 / n2}`
+            d3.innerText = `${n1} * ${n2} = ${(n1 * n2).toFixed(2)}`
+            d4.innerText = `${n1} - ${n2} = ${n1 - n2}`
+        }
+        
+        
+    </script>
+</body>
+</html>
