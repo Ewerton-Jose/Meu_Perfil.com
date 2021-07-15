@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+:root{
+    --cor1: #0E0C11; /**/
+    --cor2: #474564; /**/
+    --cor3: #B9B7C2; /**/
+    --cor3-5: #b9b7c26e;
+    --cor4: #CBC5E2; /**/
+    --cor5: #F8F8F7; /**/
+
+    --icone: 'favicon-32x32.png'
+}
+
+body{
+    background-color: var(--cor3);
+}
+
+header{
+    background: linear-gradient(to bottom, var(--cor4), var(--cor2));
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 1px 1px 1px rgba(255, 238, 0, 0.966);
+}
+
+header > h1 {
+    width: 100%;
+}
+
+nav{
+    text-align: left;
+    font-size: 25px;
+    margin: 0px 0px -25px 0px;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+nav > a {
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+    padding: 0px 25px;
+    margin: auto;
+    text-shadow: none;
+}
+
+nav > a:hover{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+main{
+    text-align: justify;
+    font-size: 24px;
+    max-width: 650px;
+    margin: 0px auto 20px;
+    background-color: var(--cor5);
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.336);
+}
+
+main > h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+main > p{
+    text-align: justify;
+}
+
+main > h3{
+    margin: 10px 0px 10px 0px;
+    background: linear-gradient(to right, var(--cor2),var(--cor3), rgba(255, 255, 255, 0) 80% );
+}
+
+main > p > img{
+    width: 100%;
+}
+
+main > a {
+    text-decoration: none;
+}
+
+article{
+    background-color: rgba(128, 128, 128, 0.425);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article > h2{
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    margin: 0px 0px 20px 0px;
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+li{
+    margin: 5px 0px 0px 0px;
+}
+
+article > ul > li > a {
+    text-align: justify;
+}
+
+footer{
+    font-size: 12px;
+    color: white;
+    font-family: monospace;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#comunicação{
+    text-decoration: none;
+    color: black;
+}
+
+#comunicação:hover{
+    text-decoration: underline;
+}
