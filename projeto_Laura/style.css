@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+header{
+    background-color: rgb(103, 26, 26);
+    text-align: center;
+    padding-top: 30px; padding-bottom: 30px;
+    width: 100vw;
+}
+
+article{
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-left: 10px; margin-right: 10px;
+    max-width: 800px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+h3 {
+    margin-left: 40px;
+    margin-bottom: 10px;   
+}
+
+img {
+    max-width: 50vw;
+    max-height: 80vh;
+    opacity: 10%;
+    position: relative;
+    bottom: 2000px;
+    left: 150px;
+}
+
+#w2{
+    bottom: 1000px;
+    left: -250px;
+    max-width: 30vw;
+    max-height: 50vh;
+}
