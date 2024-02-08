@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root{
-    --cor1: #F2D027;
-    --cor2: #F2C029;
+    --cor1: #cecece;
+    --cor2: #929292;
     --cor3: #D99518;
     --cor4: #BF7111;
     --cor5: #592B02;
@@ -14,10 +14,11 @@ body{
 }
 
 header{
-    background: linear-gradient(to bottom, var(--cor3), var(--cor4));
-    padding: 10px;
+    border: 1px solid black;
+    padding: 1px;
     margin: 0px;
     text-align: center;
+    background-color: azure;
 }
 
 header > h1{
@@ -31,10 +32,13 @@ header > p{
 
 main{
     background-color: white;
-    max-width: 800px;
+    max-width: 400px;
+    border: 1px solid rgb(0, 195, 255);
     padding: 20px;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 10px 10px;
+    
     margin: auto;
+    margin-top: 200px;
     text-align: center;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);
 }
@@ -45,6 +49,7 @@ asside{
     text-align: justify;
     font: lighter 20px arial;
     padding: 15px;
+    max-width: 200;
     background-color: var(--cor2);
     display: inline-block;
 }

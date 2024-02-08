@@ -6,77 +6,63 @@
     padding: 0px;
 }
 
-:root {
-    --cor1: #A31E14;
-    --cor2: #E65347;
-    --cor3: #00ffff60;
-}
-
-body{
-    margin: -43px 0px;
-    background-color: var(--cor3);
-}
-
 header {
-    width: 100%;
     margin: auto;
-    background: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    background: #008000;
+    min-height: 50px;
 }
 
 header > h1{
     text-align: center; 
     color: rgb(0, 0, 0);
-    font-size: 11em;
-    padding-bottom: 10px;
+    font-size: 4em;
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header > p{
     background-color: rgba(0, 0, 0, 0.144);
-    font-size: 32px;
+    font-size: 2em;
     text-align: right;
 }
 
-nav{
-    font-size: 2em;
-    background-color: rgb(139, 25, 25);
-}
 
 main{
     margin: auto;
-    max-width: 800px;
+    max-width: 1200px;
     min-width: 280px;
+    background-color: #00000000;
 }
 
 .principal{
     background-color: rgba(255, 255, 255, 0.74); 
     text-align: justify;
-    padding: 5px 20px;
-    box-shadow: 1px 2px 4px 0px rgb(0 0 0 / 35%);
-}
-
-nav > a{
-    padding: 0px 30px;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;}
-
-nav > a:hover{
-    background-color: rgba(0, 0, 0, 0.199);
-    color: rgb(1, 1, 1);
-}
-
-nav > a:active{
-    color: rgb(68, 33, 33);
+    
 }
 
 p{
-    font-size: 2em;
+    font-size: 1.2em;
     margin: 2px;
+    text-align: justify;
 }
 
-h2{
-    text-align: center;
+article {
+    max-width: 800px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+article > h1{
     font-size: 2em;
+}
+
+article > p > img{
+    text-align: center;
+    max-width: 250px;
+    max-height: 350px;
+    margin: 10px;
 }
 
 .naoespecial{
@@ -86,4 +72,8 @@ h2{
     margin: 20px 345px;
     background-color: rgba(0, 255, 255, 0.089);
     width: 354px;
+}
+
+svg{
+    display: flex;
 }
