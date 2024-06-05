@@ -12,12 +12,22 @@ header{
     text-align: center;
     padding-top: 30px; padding-bottom: 30px;
     width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
 }
 
 article{
     font-size: large;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+h1{
+    color: white;
 }
 
 h2 {
@@ -37,18 +47,28 @@ h3 {
     margin-bottom: 10px;   
 }
 
-img {
-    max-width: 50vw;
-    max-height: 80vh;
+.womans {
     opacity: 10%;
     position: relative;
-    bottom: 2000px;
+    bottom: 1000px;
+}
+
+#w1{
     left: 150px;
 }
 
 #w2{
-    bottom: 1000px;
     left: -250px;
     max-width: 30vw;
     max-height: 50vh;
+}
+
+footer {
+    background-color: rgb(103, 26, 26);
+    min-height: 700px; position: relative;
+    margin-top: -700px;
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+    padding-top: 20px;
 }
