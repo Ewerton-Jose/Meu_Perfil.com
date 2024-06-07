@@ -1,0 +1,12 @@
+#color_here{
+
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: var(--new-color);
+    }
+}
