@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(127, 255, 212, 0.452);
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#por {
+    background-color: rgba(128, 128, 128, 0.329);
+    padding-top: 20px; padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-style: oblique;
+}
