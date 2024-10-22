@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 50px;
+    background-color: rgb(28, 28, 136);
+    
+    h1 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    nav{
+        text-decoration: none;
+        margin-top: 50px;
+        padding: 0px 5px 0px 5px;
+
+        ul {
+            text-decoration: none;
+            list-style-type: none;
+
+            li{
+                display: inline-block;
+            }
+        }
+    }
+}
+
+main{
+    padding: 20px;
+
+    div{
+        margin-top: 15px;
+        display: inline-block;
+
+        p{
+            margin-top: 20px;
+        }
+
+        img {
+            display: inline-block;
+            max-width: 175px;
+        }
+    }
+}

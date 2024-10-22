@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hewwerthon</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="initialVisibility()">
+    <header>
+        <h1>Hewwerthon Acervo Digital</h1>
+        <nav>
+            <ul>
+                <li><button onclick="changeVisibilityLi()">Literatura</button></li>
+                <li><button onclick="changeVisibilityAV()">Aduiovisual</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="literarias">
+            
+            <h2>Obras Literárias</h2>
+            
+            <div style="display: flex; align-items: center;">
+                <div >
+                    <img src="https://marketplace.canva.com/EAEzk42Bb0I/1/0/1024w/canva-ebook-sobre-neg%C3%B3cios---capa-com-p%C3%A1ginas-JnnZp_G-I5c.jpg" alt="30 Contos[foto capa]">
+                </div>
+                <div style="display: inline-block;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel architecto quidem rerum, praesentium tempore, ducimus suscipit dolore qui officia expedita sint! Alias aspernatur sunt, quasi reiciendis aperiam cupiditate qui voluptatem.</p>
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: center;">
+                <img src="https://marketplace.canva.com/EAEzk42Bb0I/1/0/1024w/canva-ebook-sobre-neg%C3%B3cios---capa-com-p%C3%A1ginas-JnnZp_G-I5c.jpg" alt="Esmola Pito[foto capa]">
+                <p>  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe velit cupiditate cumque sint? Expedita repellendus tempore totam! Nisi, laudantium quasi! Placeat aspernatur perspiciatis dolorem illum natus totam explicabo nostrum enim! </p>
+            </div>
+        
+        </div>
+        <div id="audiovisual">
+            <h2>Obras AduioVsual</h2>
+            
+            <p style="text-align: left;"><iframe width="560" height="315" src="https://www.youtube.com/embed/nYvrP3QPsXQ?si=eht9aoW8w9Nhl5jj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/nYvrP3QPsXQ?si=eht9aoW8w9Nhl5jj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+            
+        </div>
+    </main>
+    <footer>
+        <p>Este é o footer</p>
+    </footer>
+    <script>
+        let audiovisual = document.getElementById("audiovisual");
+        let literarias = document.getElementById("literarias");
+
+        function initialVisibility(){
+            audiovisual.hidden = true;
+        }
+
+        function changeVisibilityAV() {
+            if (audiovisual.hidden) {
+                // Se audiovisual está escondido, mostrar audiovisual e esconder literarias
+                audiovisual.hidden = false;
+                literarias.hidden = true;
+            }
+        }
+
+        function changeVisibilityLi(){
+            audiovisual.hidden = true;
+            literarias.hidden = false;
+        }
+    </script>
+</body>
+</html>
