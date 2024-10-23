@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Estava Vivo Brasil</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <header>
+        <h1>Quem Estava Vivo Brasil</h1>
+        <input value="1900" id="ano" type="number" max="2000" min="1300">
+        <button onclick="acharConteudo()">Lupar</button>
+    </header>
+    <main>
+        <div id="personsList"></div>
+    </main>
+
+
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+    <script src="bd.js"></script>
+
+</body>
+</html>
