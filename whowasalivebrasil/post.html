@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post</title>
+</head>
+<body>
+    <main>
+        <div>
+            <label for="nome">Nome: </label>
+            <input id="nome" type="text"> <br>
+            <label for="foto">URL foto: </label>
+            <input id="foto" type="text"> <br>
+            <label for="nasc">Nascimento: </label>
+            <input id="nasc" type="number" max="2000" min="1300"> <br>
+            <label for="morte">Morte: : </label>
+            <input id="morte" type="number" max="2000" min="1300"> <br>
+            <button type="submit" onclick="post_person()">Enviar</button>
+        </div>
+    </main>
+
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+    <script src="bd.js"></script>
+</body>
+</html>

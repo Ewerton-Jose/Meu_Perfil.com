@@ -28,9 +28,9 @@ function acharConteudo() {
             escrever.innerHTML += `
         
             <div class="pessoas">
-            <h1>${pessoa.nome}</h1>
             <img src="${pessoa.foto}" alt="${pessoa.nome}">
-            <p>${ano - pessoa.nasc} anos </p>
+            <h1>${pessoa.nome}</h1>
+            <p>${ano - pessoa.nasc} anos</p>
             </div>
             `;
         };
@@ -39,3 +39,21 @@ function acharConteudo() {
         });
       })
     }
+
+function post_person(){
+
+    const conteudo = {
+        nome: document.getElementById("nome").value,
+        nasc: parseInt(document.getElementById("nasc").value),
+        morte: parseInt(document.getElementById("morte").value),
+        foto: document.getElementById("foto").value
+    }
+
+    firebase.firestore().collection("pessoas").add(conteudo).then(
+        () => {
+            window.alert("Documento adicionado com sucesso");        })
+        .catch(() => {
+            alert("Erro ao cadastrar");
+        })
+
+}

@@ -16,26 +16,34 @@ header > input {
 }
 
 .pessoas{
-    min-width: 250px; max-width: 250px;
-    min-height: 250px; max-height: 250px;
+    min-width: 290px; max-width: 250px;
+    max-height: 135px;
 
-    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    text-align: right;
 
     margin-left: 2px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 2px;
+    margin-right: 2px;
 
-    display: inline-block;
+    display: inline-flex;
 
     border: 2px;
     border-style: solid;
 }
 
 .pessoas h1 {
-    font-size: 1.3em;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .pessoas img {
     width: 120px;
-    height: 150px;
+    height: 135px;
+}
+
+main {
+    margin: auto;
+    max-width: 1000px;
 }
